@@ -1,21 +1,21 @@
 
-# Data Science & Machine Learning 
+## Data Science & Machine Learning 
 
 - [KDnuggets](https://www.kdnuggets.com/)
 - [Towards Data Science](https://towardsdatascience.com/) 
 - [Machine learning mastery](https://machinelearningmastery.com/)
 
-# Python
+## Python
 
 - [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 - [Real Python](https://realpython.com/)
 
-# Microservices
+## Microservices
 
 - [The twelve-factor app](https://12factor.net/)
 
 
-# Things I wish I knew when I started working as a software engineer
+## Things I wish I knew when I started working as a software engineer
 
 - [Software Roles and Titles](https://medium.com/javascript-scene/software-roles-and-titles-e3f0b69c410c)
 - [Your first 90 days as CTO or VP Engineering](https://lethain.com/first-ninety-days-cto-vpe/)

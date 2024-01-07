@@ -1,10 +1,9 @@
-site_name: My notes on software
+site_name: Notes on software and data engineering
 site_url: https://ifoukarakis.github.io/ # must have the trailing slash
 site_author: Yiannis Foukarakis
 site_description: My notes on software and data!
 copyright: > # should remain a link to the original theme
-  &copy; 2024 What the Fouk?<br>
-  <a href="https://github.com/vuquangtrong/mkdocs-material-blog">Blog Theme</a> /
+  &copy; 2024 Yiannis Foukarakis<br>
   <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
 
 extra:
@@ -71,6 +70,12 @@ extra_javascript:
 nav:
   - Home:
     - index.md
+  - Notes:
+    - notes/index.md
+    - Questions to ask when building data products: notes/data_products.md
+    - Data quality dimensions: notes/data_quality.md
+    - Effective Pull Requests: notes/prs.md
+    - Things to read before building RESTful services: notes/rest.md
   - Reading:
     - reading/index.md
     - Books:
@@ -79,6 +84,7 @@ nav:
       - Data: reading/books/data.md
       - Software Engineering: reading/books/softeng.md
     - Newsletters: reading/newsletters.md
+    - Links: reading/websites.md
 
   - About Me:
     - about_me.md
