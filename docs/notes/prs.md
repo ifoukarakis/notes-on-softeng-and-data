@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Effective Pull Requests
 
 This is my baseline for effective pull requests using Git.

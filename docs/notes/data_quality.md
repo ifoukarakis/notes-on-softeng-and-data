@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Data Quality
 
 While talking to different people about data quality, I noticed that most of them mean different things. There's some great posts over the web. 

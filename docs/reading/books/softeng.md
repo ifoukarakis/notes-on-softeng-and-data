@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Anything that can help become a more effective developer.
 
 ## Design Patterns: Elements of Reusable Object-Oriented Software

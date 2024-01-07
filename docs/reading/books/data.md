@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Books related to data and statistics.
 
 ## Designing Data Intensive Applications

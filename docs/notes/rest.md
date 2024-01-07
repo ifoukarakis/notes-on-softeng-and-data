@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Things to read and consider when building RESTful services
 
 - [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html) - REST is more than using an HTTP method and URL structure. Richardson Maturity Model is a way to measure the different 

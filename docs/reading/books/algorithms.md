@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Algorithms and data structures.
 
 ## Introduction to Algorithms

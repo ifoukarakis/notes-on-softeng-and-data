@@ -1,5 +1,8 @@
-Things I read weekly.
+---
+comments: true
+---
 
+Things I read weekly.
 
 ## [Data Machina](https://datamachina.substack.com)
 

@@ -1,6 +1,10 @@
+---
+comments: true
+---
+
 # Things to ask before starting work on a Data/Machine Learning project.
 
-This is a list of common
+This is a list of questions I try to answer whenever I start working on a new data/machine learning project.
 
 
 ## Problem statement
