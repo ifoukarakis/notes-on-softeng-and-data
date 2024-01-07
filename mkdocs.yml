@@ -1,0 +1,96 @@
+site_name: My notes on software
+site_url: https://ifoukarakis.github.io/ # must have the trailing slash
+site_author: Yiannis Foukarakis
+site_description: My notes on software and data!
+copyright: > # should remain a link to the original theme
+  &copy; 2024 What the Fouk?<br>
+  <a href="https://github.com/vuquangtrong/mkdocs-material-blog">Blog Theme</a> /
+  <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ifoukarakis
+      name: ifoukarakis
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/in/ifoukarakis
+      name: ifoukarakis
+  generator: false # hide the line "Made with Material for MkDocs"
+
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+
+  #   primary: indigo
+  #   accent: indigo
+  font:
+    text: Noto Serif
+    code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/database
+  favicon: favicon.png
+  custom_dir: overrides
+
+  features:
+    # - navigation.instant # some features may not work properly with XHR
+    - navigation.tracking # the URL changes with the active anchor
+    - navigation.tabs # first top-level sections are shown as tabs
+    # - navigation.tabs.sticky # tabs always show
+    # - navigation.sections # sections are rendered as groups in the sidebar
+    # - navigation.expand # all sections are expanded
+    - navigation.indexes # link an index.md page to a section
+    - navigation.top # show back-to-top button
+    # - toc.integrate # show table of contents to navigation panel
+    # - header.autohide
+    - search.suggest # display the likeliest completion for the last word
+    - search.highlight # highlight all occurrences
+    - search.share # show a share button
+    - content.code.annotate
+
+extra_css:
+    - assets/extra.css
+extra_javascript:
+    - assets/extra.js
+
+# TODO: more work here
+nav:
+  - Home:
+    - index.md
+  - Reading:
+    - reading/index.md
+    - Books:
+      - reading/books/index.md
+      - Algorithms: reading/books/algorithms.md
+      - Data: reading/books/data.md
+      - Software Engineering: reading/books/softeng.md
+    - Newsletters: reading/newsletters.md
+
+  - About Me:
+    - about_me.md
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
